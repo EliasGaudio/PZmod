@@ -1,0 +1,22 @@
+module Base
+{
+    item Jacket_SteamGuide
+    {
+        Type = Clothing,
+        DisplayName = My First Jacket,
+        ClothingItem = Jacket_SteamGuide,
+        BodyLocation = Jacket,
+        Icon = SteamGuideJacket,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.89,
+        CombatSpeedModifier = 0.96,
+        BiteDefense = 10,
+        ScratchDefense = 20,
+        NeckProtectionModifier = 0.5,
+        Insulation = 1.0,
+        WindResistance = 1.0,
+        WaterResistance = 0.60,
+        Weight = 3,
+        WorldStaticModel = JacketSteamGuide_Ground,
+    }
+}
